@@ -29,3 +29,5 @@ docker run -dit -p 宿主机端口:80 xxx:xxx
 ```
 
 访问 IP即可
+
+Fork于 [nijun008/weddingInvitations](https://github.com/nijun008/weddingInvitations.git) 感谢大佬代码
