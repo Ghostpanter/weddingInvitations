@@ -20,6 +20,12 @@ node app
 
 默认端口为8081, 可以在app.js中修改端口
 
-## 自行部署
+## Docker部署
 
-clone 到本地后, 拷贝index.html 和 public 自行部署即可
+```bash
+docker build -t xxx:xxx .
+
+docker run -dit -p 宿主机端口:80 xxx:xxx 
+```
+
+访问 IP即可
